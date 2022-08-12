@@ -77,12 +77,12 @@ button i:hover {
 }
 
 .progress-bar .watched-time {
-  background: orange;
+  background: red;
   height: 8px;
 }
 
 .progress-bar .circle {
-  background-color: orange;
+  background-color: red;
   width: 25px;
   height: 25px;
   margin-left: -1px;
