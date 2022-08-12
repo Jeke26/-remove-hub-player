@@ -100,7 +100,7 @@ function hideControls() {
     if(video.played) {
         controlsTimeout = setTimeout(() => {
             controlsBar.style.opacity = "0";
-        }, 5000);
+        }, 7900);
     }  
 }
 
