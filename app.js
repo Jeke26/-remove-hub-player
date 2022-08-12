@@ -35,7 +35,7 @@ const displayControls = () => {
   controlsTimeout = setTimeout(() => {
     controlsContainer.style.opacity = '0';
     document.body.style.cursor = 'none';
-  }, 9000);
+  }, 5000);
 };
 
 const playPause = () => {
