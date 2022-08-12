@@ -145,5 +145,16 @@ button i:hover {
 img {
   width: 170px;
 	height: 50px;
-    position: right;
+     margin: auto 0%;
+  right: 0;
 }
+ @media (max-width: 599px) {
+   button i {
+  font-size: 20px;
+  color: #fff;
+     }
+img {
+  width: 20%;
+	height: 20px;
+     margin: auto 0%;
+  right: 0;
