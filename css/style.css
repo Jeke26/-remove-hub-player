@@ -108,8 +108,8 @@ button i:hover {
 
 .left .video-title {
   color: #fff;
-  font-size: 24px;
-  margin: auto 25px;
+  font-size: 24%;
+  margin: auto 25%;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;
 }
@@ -128,12 +128,12 @@ button i:hover {
 }
 
 .right button {
-  margin: auto 20px;
+  margin: auto 20%;
   right: 0;
 }
 
 .play-pause .pause {
-  font-size: 28px;
+  font-size: 28%;
 }
 
 .play-pause .pause,
@@ -145,7 +145,7 @@ button i:hover {
 img {
   width: 170px;
 	height: 100px;
-    margin: auto 20px;
+    margin: auto 20%;
   right: 0;
   
     
