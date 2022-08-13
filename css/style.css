@@ -169,11 +169,9 @@ img {
 
 .progress-bar {
   height: 8px;
-  width: 80%;
+  width: 96%;
   margin: 0 auto;
   background: #5B5B5B;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -184,4 +182,18 @@ img {
 button i {
   font-size: 20px;
   color: #fff;
+}
+
+.left {
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: left;
+  height: 100%;
+  width: 20%
 }
