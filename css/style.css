@@ -152,7 +152,6 @@ img {
 img {
   width: 20%;
 	height: 25px;
-     margin: auto 0%;
   right: 0;
   }
   .progress-bar .watched-time {
@@ -180,3 +179,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  }
+
+button i {
+  font-size: 20px;
+  color: #fff;
+}
