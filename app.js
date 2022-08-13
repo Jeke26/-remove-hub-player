@@ -22,12 +22,12 @@ const timeLeft = document.querySelector('.video-container .progress-controls .ti
 
 let controlsTimeout;
 controlsContainer.style.opacity = '0';
-watchedBar.style.width = '0px';
+watchedBar.style.width = '10px';
 pauseButton.style.display = 'none';
 minimizeButton.style.display = 'none';
 
 const displayControls = () => {
-  controlsContainer.style.opacity = '1';
+  controlsContainer.style.opacity = '0';
   document.body.style.cursor = 'initial';
   if (controlsTimeout) {
     clearTimeout(controlsTimeout);
@@ -35,7 +35,7 @@ const displayControls = () => {
   controlsTimeout = setTimeout(() => {
     controlsContainer.style.opacity = '0';
     document.body.style.cursor = 'none';
-  }, 5000);
+  }, 50000);
 };
 
 const playPause = () => {
