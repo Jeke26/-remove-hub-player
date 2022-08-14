@@ -145,7 +145,7 @@ button i:hover {
 img {
   width: 170px;
 	height: 50px;
-     margin: auto 225%;
+     margin: auto 0%;
   right: 0;
 }
  @media (max-width: 500px) {
